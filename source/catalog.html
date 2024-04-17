@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Название проекта</title>
+  <title>Каталог продукции Cat Energy</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link rel="stylesheet" href="styles/styles.css">
   <script src="scripts/index.js" defer></script>
@@ -11,19 +11,19 @@
 
 <body class="page__body">
   <header class="main-header">
-    <a class="main-heager__logo" href="index.html">
+    <a class="main-header__logo logo" href="index.html">
       <img class="main-header__logo-image" src="#" width="33" height="38" alt="Логотип белый кот в оранжевом костюме супергероя">
       <img class="main-header__logo-text" src="#" width="101" height="18" alt="Cat Energy">
     </a>
     <nav class="main-nav">
       <button class="main-nav__toggle" type="button">
-        <span class="visualli-hidden">Открыть меню</span>
+        <span class="visualli-hidden">Показать или скрыть меню</span>
       </button>
       <ul class="main-nav__list menu-list">
-        <li class="menu-list__item menu-list__item--current">
+        <li class="menu-list__item">
           <a href="index.html">Главная</a>
         </li>
-        <li class="menu-list__item">
+        <li class="menu-list__item menu-list__item--current">
           <a href="catalog.html">Каталог продукции</a>
         </li>
         <li class="menu-list__item">
@@ -261,26 +261,30 @@
         <p class="gifts__text">Закажите все и получите чехол для кота в подарок!</p>
       </div>
     </section>
+
     <section class="subscribe">
       <h2 class="subscribe__title decor-title">Акции и новинки</h2>
-      <form class="subscribe__form" action="Подпишитесь на наши новости и не пропустите ни одного предложения!" method="post">
+      <form class="subscribe__form form" action="https://echo.htmlacademy.ru" method="post">
         <p class="subscribe__text">Подпишитесь на наши новости и не пропустите ни одного предложения!</p>
         <label class="visualli-hidden" for="email">Введите свой E-mail</label>
         <input class="subscribe__input" id="email" name="email" type="text" placeholder="Введите свой E-mail">
         <button class="subscribe__button button button--primary" type="submit">Подписаться</button>
       </form>
     </section>
+
     <section class="contacts">
       <h2 class="visualli-hidden">Контакты</h2>
       <p class="contacts__invite">приглашаем к сотрудничеству дилеров!</p>
       <address class="contacts__adress">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</address>
-      <img class="contacts__map" src="#" width="320" height="362" alt="карта с маркером по адресу ул. Большая Конюшенная, д. 19/8 Санкт-Петербург">
-      <!-- будущий фрейм карты -->
+      <div class="map">
+        <img class="contacts__map" src="#" width="320" height="362" alt="карта с маркером по адресу ул. Большая Конюшенная, д. 19/8 Санкт-Петербург">
+        <!-- будущий фрейм карты -->
+      </div>
     </section>
 
   </main>
   <footer class="main-footer">
-    <a class="main-footer__logo" href="index.html">
+    <a class="main-footer__logo logo" href="index.html">
       <img class="main-footer__image" src="#" width="128" height="24" alt="Cat Energy">
     </a>
     <section class="social">

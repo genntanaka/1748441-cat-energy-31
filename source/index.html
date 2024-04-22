@@ -13,9 +13,13 @@
   <header class="main-header">
     <a class="logo logo--header" href="index.html">
       <picture>
+        <source type="image/svg+xml" media="(min-width: 1440px)" srcset="icons/logo.svg" width="70" height="59">
+        <source type="image/svg+xml" media="(min-width: 768px)" srcset="icons/logo.svg" width="60" height="50">
         <img class="main-header__logo-image" src="icons/logo.svg" width="33" height="38" alt="Логотип белый кот в оранжевом костюме супергероя">
       </picture>
       <picture>
+        <source type="image/svg+xml" media="(min-width: 1440px)" srcset="icons/logo-text.svg" width="118" height="21">
+        <source type="image/svg+xml" media="(min-width: 768px)" srcset="icons/logo-text.svg" width="60" height="50">
         <img class="main-header__logo-text" src="icons/logo-text.svg" width="101" height="18" alt="Cat Energy">
       </picture>
     </a>
@@ -40,7 +44,12 @@
     <section class="hero">
       <h1 class="hero__title">Функциональное питание для котов</h1>
       <p class="hero__text">Занялся собой? Займись котом!</p>
-      <img class="hero__image" src="#" width="280" height="270" alt="Баночка с питанием для котом со вкусом курицы">
+      <picture>
+        <source width="522" height="499" type="image/png" media="(min-width: 1440px)" srcset="images/hero-jar@1x.png 1x, images/hero-jar@2x.png 2x">
+        <source width="709" height="609" type="image/png" media="(min-width: 768px)" srcset="images/t-hero-jar@1x.png 1x, images/t-hero-jar@2x.png 2x">
+        <img class="hero__image" src="images/m-hero-jar@1x.png" srcset="images/m-hero-jar@2x.png 2x" width="280" height="270" alt="Баночка с питанием для котом со вкусом курицы">
+      </picture>
+
       <a class="hero__buttom button button--primary" href="#">подобрать программу</a>
     </section>
 
@@ -91,9 +100,17 @@
         <span>Затраты на питание:</span><span>15 000 руб.</span>
       </p>
       <div class="result__images result-swipe">
-        <img class="result-swipe__before" src="#" width="280" height="256" alt="Толстый черно белый кот до приема специального питания">
+        <picture>
+          <source width="560" height="512" type="image/png" media="(min-width: 768px)" srcset="images/t-before-cat@1x.png 1x, images/t-before-cat@2x.png 2x">
+          <img class="result-swipe__before" src="images/m-before-cat@1x.png" srcset="images/m-before-cat@2x.png 2x" width="280" height="256" alt="Толстый черно белый кот до приема специального питания">
+        </picture>
+
         <span class="result-swipe__button"></span>
-        <img class="result-swipe__after" src="#" width="280" height="256" alt="Стройный черно белый кот после приема специально питения">
+        <picture>
+          <source width="560" height="512" type="image/png" media="(min-width: 768px)" srcset="images/t-after-cat@1x.png 1x, images/t-after-cat@2x.png 2x">
+          <img class="result-swipe__after" src="images/m-after-cat@1x.png" srcset="images/m-after-cat@2x.png 2x" width="280" height="256" alt="Стройный черно белый кот после приема специально питания">
+        </picture>
+
       </div>
     </section>
 
@@ -102,7 +119,12 @@
       <p class="contacts__invite">приглашаем к сотрудничеству дилеров!</p>
       <address class="contacts__address">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</address>
       <div class="map">
-        <img class="contacts__map" src="#" width="320" height="362" alt="карта с маркером по адресу ул. Большая Конюшенная, д. 19/8 Санкт-Петербург">
+        <picture>
+          <source width="1440" height="400" type="image/png" media="(min-width: 1440px)" srcset="images/map@1x.png 1x, images/map@2x.png 2x">
+          <source width="768" height="400" type="image/png" media="(min-width: 768px)" srcset="images/t-map@1x.png 1x, images/t-map@2x.png 2x">
+          <img class="contacts__map" src="images/m-map@1x.png" srcset="images/m-map@2x.png 2x" width="320" height="362" alt="карта с маркером по адресу ул. Большая Конюшенная, д. 19/8 Санкт-Петербург">
+        </picture>
+
         <!-- будущий фрейм карты -->
       </div>
     </section>
@@ -110,7 +132,7 @@
   </main>
   <footer class="main-footer">
     <a class="logo logo--footer" href="index.html">
-      <img class="main-footer__image" src="#" width="128" height="24" alt="Cat Energy">
+      <img class="main-footer__image" src="icons/logo-text.svg" width="128" height="24" alt="Cat Energy">
     </a>
     <section class="main-footer__social social">
       <h2 class="visually-hidden">Социальные сети</h2>

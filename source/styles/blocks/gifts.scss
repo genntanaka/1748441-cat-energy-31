@@ -1,7 +1,13 @@
 .gifts {
-  //
+  background-color: var(--basic-background);
+  //background-image: url("../../images/gift-bg@1x.png");
+  padding: 186px 55px 43px;
 }
 
 .gifts__text {
-  //
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--text-light-color);
+  text-align: center;
+  margin: 0;
 }

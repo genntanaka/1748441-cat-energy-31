@@ -2,17 +2,17 @@
   background-image: url("../../images/m-hero-bg@1x.jpg");
   background-size: cover;
   background-position: top;
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   position: relative;
   text-align: center;
   padding: 27px 35px;
   padding-bottom: 0;
 }
 
-.hero::before{
+.hero::before {
   content: "";
   display: block;
-  background-color: var(--basic-background, #68b738d9);
+  background-color: var(--basic-background, rgba(104, 183, 56, 0.85));
   width: 100%;
   height: 100%;
   position: absolute;
@@ -42,12 +42,12 @@
   z-index: 1;
 }
 
-.hero__image{
+.hero__image {
   position: relative;
   z-index: 1;
 }
 
-.hero__button{
+.hero__button {
   position: relative;
   z-index: 1;
 }

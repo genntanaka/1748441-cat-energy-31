@@ -5,7 +5,7 @@
 }
 
 .program__item {
-  background-color: var(--secondary-background);
+  background-color: var(--secondary-background, #f2f2f2);
 }
 
 .program__item--slim {
@@ -21,7 +21,7 @@
   font-size: 24px;
   line-height: 37px;
   text-transform: uppercase;
-  color: var(--text-secondary-color);
+  color: var(--text-secondary-color, #000000);
   margin: 0;
 }
 
@@ -33,7 +33,7 @@
   font-family: $secondary-font;
   font-style: 16px;
   line-height: 16px;
-  color: var(--text-secondary-color);
+  color: var(--text-secondary-color, #000000);
   text-decoration: none;
   text-transform: uppercase;
 }

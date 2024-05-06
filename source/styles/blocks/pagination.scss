@@ -12,7 +12,7 @@
   font-size: 12px;
   line-height: 16px;
   text-align: center;
-  color: var(--text-basic-color);
+  color: var(--text-basic-color, #444444);
   margin: 0;
 }
 

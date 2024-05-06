@@ -1,12 +1,12 @@
 .hero {
-  background-color: var(--basic-background);
+  background-color: var(--basic-background, rgba(104, 183, 56, 0.85));
 }
 
 .hero__title {
   font-family: $secondary-font;
   font-size: 36px;
   line-height: 36px;
-  color: var(--text-light-color);
+  color: var(--text-light-color, #ffffff);
   margin: 0;
 }
 
@@ -14,7 +14,7 @@
   font-family: $secondary-font;
   font-size: 14px;
   line-height: 14px;
-  color: var(--text-light-color);
+  color: var(--text-light-color, #ffffff);
   text-transform: uppercase;
   margin: 0;
 }

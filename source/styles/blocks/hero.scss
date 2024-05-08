@@ -9,6 +9,12 @@
   padding-bottom: 0;
 }
 
+@media (min-resolution: 2dppx){
+  .hero{
+    background-image: url("../../images/m-hero-bg@2x.jpg");
+  }
+}
+
 .hero::before {
   content: "";
   display: block;

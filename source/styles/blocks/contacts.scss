@@ -1,7 +1,7 @@
 .contacts__invite {
   font-family: $secondary-font;
   font-size: 16px;
-  line-height: 20px;
+  line-height: 1.25;
   text-transform: uppercase;
   color: #111111;
   margin: 0;
@@ -9,5 +9,9 @@
 
 .contacts__address {
   font-style: normal;
-  line-height: 20px;
+  line-height: 1.42;
+}
+
+.contacts__images{
+  display: block;
 }

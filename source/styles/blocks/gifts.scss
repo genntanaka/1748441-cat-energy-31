@@ -1,12 +1,25 @@
 .gifts {
   background-color: var(--basic-background, rgba(104, 183, 56, 0.85));
   //background-image: url("../../images/gift-bg@1x.png");
-  padding: 186px 55px 43px;
+  padding: 43px 55px 43px;
+}
+
+.gifts::before {
+  content: '';
+  width: 78px;
+  height: 80px;
+  display: block;
+  background-image: url(../../icons/stack.svg#icon_gift);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin: 0 auto;
+  margin-bottom: 48px;
 }
 
 .gifts__text {
   font-size: 16px;
-  line-height: 20px;
+  line-height: 1.25;
   color: var(--text-light-color, #ffffff);
   text-align: center;
   margin: 0;

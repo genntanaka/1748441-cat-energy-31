@@ -10,26 +10,26 @@
 .program__item {
   background-color: var(--secondary-background, #f2f2f2);
   --bgc: #000000;
-  padding: 21px 20px 18px 20px;
+  padding: 21px 20px 18px;
   position: relative;
   display: grid;
   grid-template-columns: 60px auto;
 }
 
-.program__item:after {
+.program__item::after {
   content: "";
   display: block;
   width: 50px;
   height: 50px;
   background-color: var(--basic-background-color, #68b738);
-  background-size:50px 50px;
+  background-size: 50px 50px;
   border-radius: 50%;
   position: absolute;
   top: 25px;
   left: 23px;
 }
 
-.program__item:before {
+.program__item::before {
   content: "";
   display: inline-block;
   vertical-align: middle;
@@ -45,7 +45,7 @@
   --icon-program: url("../../icons/stack.svg#slim_cat");
 }
 
-.program__item--slim:before {
+.program__item--slim::before {
   width: 36px;
   height: 50px;
   left: 10px;
@@ -55,7 +55,7 @@
   --icon-program: url("../../icons/stack.svg#pro_cat");
 }
 
-.program__item--pro:before {
+.program__item--pro::before {
   width: 67px;
   height: 28px;
   left: -10px;
@@ -92,10 +92,14 @@
   grid-column: 1 / -1;
 }
 
-.program__link:after {
+.program__link::after {
   content: "";
   display: block;
   width: 24px;
   height: 12px;
   background-image: url("../../icons/stack.svg#arrow");
+}
+
+.program__link:active {
+  opacity: $standart_opacity_active;
 }

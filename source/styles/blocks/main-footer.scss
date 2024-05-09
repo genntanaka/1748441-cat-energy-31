@@ -2,7 +2,7 @@
   background-color: var(--secondary-background, #f2f2f2);
 }
 
-.main-footer__social{
+.main-footer__social {
   padding-top: 20px;
   padding-bottom: 20px;
   border-top: 1px solid #d9d9d9;
@@ -21,7 +21,7 @@
   margin-bottom: 40px;
 }
 
-.main-footer__developer:after{
+.main-footer__developer::after {
   content: "";
   width: 27px;
   height: 34px;
@@ -31,4 +31,21 @@
   mask-position: center;
   mask-image: url("../../icons/stack.svg#html_academy");
   background-color: var(--icon-color, #666666);
+}
+
+.main-footer__developer:active {
+  opacity: 0.3;
+}
+
+.main-footer__developer:hover::after {
+  background-color: #68b738;
+}
+
+.main-footer__developer:active::after {
+  background-color: #68b738;
+  opacity: 0.3;
+}
+
+.main-footer__developer:focus::after {
+  background-color: #68b738;
 }

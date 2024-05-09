@@ -13,7 +13,7 @@
   gap: 20px;
 }
 
-.usage__item:before{
+.usage__item::before {
   content: "";
   min-width: 60px;
   height: 60px;

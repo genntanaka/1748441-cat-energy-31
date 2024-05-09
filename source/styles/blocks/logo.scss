@@ -12,3 +12,15 @@
   margin-bottom: 20px;
   text-align: center;
 }
+
+.logo--footer:active {
+  opacity: $standart_opacity_active;
+}
+
+.logo--footer:hover {
+  opacity: $standart_opacity_hover;
+}
+
+.logo--footer:focus {
+  opacity: $standart_opacity_focus;
+}

@@ -1,8 +1,10 @@
 .hero {
-  background-image: url("../../images/m-hero-bg@1x.jpg");
-  background-size: cover;
-  background-position: top;
+  background-image: linear-gradient(var(--basic-background, rgba(104, 183, 56, 0.85)) 62%, #ffffff 62%), url("../../images/m-hero-bg@1x.jpg");
   background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: top;
+  background-color: #68b738;
+
   position: relative;
   text-align: center;
   padding: 27px 35px;
@@ -11,19 +13,8 @@
 
 @media (min-resolution: 2dppx) {
   .hero {
-    background-image: url("../../images/m-hero-bg@2x.jpg");
+    background-image: linear-gradient(var(--basic-background, rgba(104, 183, 56, 0.85)) 62%, #ffffff 62%), url("../../images/m-hero-bg@2x.jpg");
   }
-}
-
-.hero::before {
-  content: "";
-  display: block;
-  background-color: var(--basic-background, rgba(104, 183, 56, 0.85));
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
 }
 
 .hero__title {
@@ -44,6 +35,7 @@
   color: var(--text-light-color, #ffffff);
   text-transform: uppercase;
   margin: 0;
+  margin-bottom: 29px;
   position: relative;
   z-index: 1;
 }

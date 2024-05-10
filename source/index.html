@@ -16,8 +16,10 @@
   <script src="scripts/index.js" defer></script>
 </head>
 
+<!-- добавить  page__body--open при открытии меню -->
+
 <body class="page__body">
-  <header class="main-header">
+  <header class="main-header container">
     <a class="logo logo--header" href="index.html">
       <picture>
         <source type="image/svg+xml" media="(min-width: 1440px)" srcset="images/logo.svg" width="70" height="59">
@@ -26,8 +28,9 @@
       </picture>
       <img class="main-header__logo-text" src="images/logo-text.svg" width="101" height="18" alt="Cat Energy">
     </a>
+    <!-- добавить  .main-nav--open при открытии меню -->
     <nav class="main-nav">
-      <button class="main-nav__toggle toggle" type="button">
+      <button class="main-nav__toggle toggle" type="button" id="toggle">
         <span class="visually-hidden">Показать или скрыть меню</span>
       </button>
       <ul class="main-nav__list menu-list">
@@ -115,6 +118,14 @@
         </picture>
 
       </div>
+
+      <div id="image-comparison">
+        <div class="image-comparison__before">
+          <img class="image-comparison__image" src="images/m-before-cat@1x.png" alt="alt">
+        </div>
+        <img class="image-comparison__image" src="images/m-after-cat@1x.png" alt="alt">
+      </div>
+
     </section>
 
     <section class="contacts">

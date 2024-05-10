@@ -17,7 +17,7 @@
 </head>
 
 <body class="page__body">
-  <header class="main-header">
+  <header class="main-header container">
     <a class="logo logo--header" href="index.html">
       <picture>
         <source type="image/svg+xml" media="(min-width: 1440px)" srcset="images/logo.svg" width="70" height="59">
@@ -27,7 +27,7 @@
       <img class="main-header__logo-text" src="images/logo-text.svg" width="101" height="18" alt="Cat Energy">
     </a>
     <nav class="main-nav">
-      <button class="main-nav__toggle toggle" type="button">
+      <button class="main-nav__toggle toggle" type="button" id="toggle">
         <span class="visually-hidden">Показать или скрыть меню</span>
       </button>
       <ul class="main-nav__list menu-list">
@@ -307,9 +307,11 @@
       <h2 class="subscribe__title title title--decor">Акции и новинки</h2>
       <form class="subscribe__form form" action="https://echo.htmlacademy.ru" method="post">
         <p class="form__text">Подпишитесь на наши новости и не пропустите ни одного предложения!</p>
-        <label class="visually-hidden" for="email">Введите свой E-mail</label>
-        <input class="form__input" id="email" name="email" type="text" placeholder="Введите свой E-mail">
-        <button class="form__button button button--primary" type="submit">Подписаться</button>
+        <div class="form__wrapper">
+          <label class="visually-hidden" for="email">Введите свой E-mail</label>
+          <input class="form__input" id="email" name="email" type="text" placeholder="Введите свой E-mail">
+          <button class="form__button button button--primary" type="submit">Подписаться</button>
+        </div>
       </form>
     </section>
 

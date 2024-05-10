@@ -5,15 +5,24 @@
   color: var(--text-secondary-color, #000000);
   text-align: center;
   margin: 0;
+  margin-bottom: 24px;
+}
+
+.form__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 .form__input {
   font-family: $secondary-font;
   font-size: 20px;
-  padding: 13px;
+  line-height: 1.48;
+  padding: 7px 13px;
   border: 1px solid #cdcdcd;
 }
 
 .form__button {
   width: 100%;
+  padding: 13px 26px;
 }

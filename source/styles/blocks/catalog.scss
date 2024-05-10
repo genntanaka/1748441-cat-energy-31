@@ -1,9 +1,11 @@
 .catalog-title {
-  line-height: 2.57;
+  line-height: 1;
 }
 
 .catalog-list {
   list-style: none;
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
 }

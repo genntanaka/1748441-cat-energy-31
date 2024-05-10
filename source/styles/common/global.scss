@@ -16,6 +16,10 @@
   margin: 0;
 }
 
+.page__body.page__body--open {
+  overflow: hidden;
+}
+
 .main {
   flex-grow: 1;
 }

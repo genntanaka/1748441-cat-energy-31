@@ -97,16 +97,29 @@
       <h2 class="result__title title">Живой пример</h2>
       <p class="result__text">Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy Slim. Отличный результат без изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит по 16 часов в день.</p>
       <dl class="result__list">
-        <dt>снижение веса</dt>
-        <dd>5 кг</dd>
-        <dt>затрачено времени</dt>
-        <dd>60 дней</dd>
+        <div class="result__item">
+          <dt>снижение веса</dt>
+          <dd>5&nbsp;кг</dd>
+        </div>
+        <div class="result__item">
+          <dt>затрачено времени</dt>
+          <dd>60&nbsp;дней</dd>
+        </div>
       </dl>
       <p class="result__price">
         <span>Затраты на питание:</span><span>15 000 руб.</span>
       </p>
       <div class="result__images result-swipe">
-        <picture>
+
+        <div class="image-comparison">
+          <div class="image-comparison__before">
+            <img class="image-comparison__image" src="images/m-before-cat@1x.png" alt="alt">
+          </div>
+          <img class="image-comparison__image" src="images/m-after-cat@1x.png" alt="alt">
+          <button class="image-comparison__slider" type="button"></button>
+        </div>
+
+        <!-- <picture>
           <source width="560" height="512" type="image/png" media="(min-width: 768px)" srcset="images/t-before-cat@1x.png 1x, images/t-before-cat@2x.png 2x">
           <img class="result-swipe__before" src="images/m-before-cat@1x.png" srcset="images/m-before-cat@2x.png 2x" width="280" height="256" alt="Толстый черно белый кот до приема специального питания">
         </picture>
@@ -115,15 +128,8 @@
         <picture>
           <source width="560" height="512" type="image/png" media="(min-width: 768px)" srcset="images/t-after-cat@1x.png 1x, images/t-after-cat@2x.png 2x">
           <img class="result-swipe__after" src="images/m-after-cat@1x.png" srcset="images/m-after-cat@2x.png 2x" width="280" height="256" alt="Стройный черно белый кот после приема специально питания">
-        </picture>
+        </picture> -->
 
-      </div>
-
-      <div id="image-comparison">
-        <div class="image-comparison__before">
-          <img class="image-comparison__image" src="images/m-before-cat@1x.png" alt="alt">
-        </div>
-        <img class="image-comparison__image" src="images/m-after-cat@1x.png" alt="alt">
       </div>
 
     </section>

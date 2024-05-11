@@ -1,10 +1,34 @@
 .result {
   background-color: #eaeaea;
+  padding-top: 25px;
+  padding-bottom: 40px;
+}
+
+.result__title {
+  margin: 0 0 40px;
+}
+
+.result__text {
+  margin: 0 0 20px;
+}
+
+.result__list {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+  text-align: center;
 }
 
 .result__list dt {
   font-size: 12px;
   line-height: 1;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: -13px;
+  background-color: #eaeaea;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .result__list dd {
@@ -13,6 +37,16 @@
   line-height: 1;
   margin: 0;
   text-transform: uppercase;
+  padding: 15px 0;
+  border: 1px solid #cdcdcd;
+  border-radius: 3px;
+  width: 124px;
+}
+
+.result__item {
+  position: relative;
+  // display: flex;
+  // justify-content: space-between;
 }
 
 .result__price {
@@ -20,33 +54,74 @@
   font-size: 14px;
   line-height: 1.42;
   text-transform: uppercase;
+  text-align: center;
+  margin: 29px 0 0;
 }
 
-.img-comp-container {
+.result__images {
+  width: fit-content;
+  margin-top: 20px;
+}
+
+.image-comparison {
   position: relative;
-  height: 200px; /* должно быть то же значение, что и высота у изображения */
-}
-
-.img-comp-img {
-  position: absolute;
-  width: auto;
-  height: auto;
+  display: inline-block;
+  width: 100%;
   overflow: hidden;
 }
 
-.img-comp-img img {
-  display: block;
-  vertical-align: middle;
+.image-comparison__before {
+  position: absolute;
+  width: 50%;
+  overflow: hidden;
+  background-color: #eaeaea;
 }
 
-.img-comp-slider {
+.image-comparison__image {
+  display: block;
+}
+
+.image-comparison__slider {
+  padding: 0;
   position: absolute;
-  z-index: 9;
-  cursor: ew-resize;
-  /* задаем внешний вид слайдера: */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 2px;
+  height: 100%;
+  background-color: var(--icon-color, #666666);
+  cursor: col-resize;
+  outline: none;
+  border: none;
+}
+
+.image-comparison__slider::before {
+  content: "";
+  position: absolute;
+  top: calc(50% - 20px);
+  left: -19px;
   width: 40px;
   height: 40px;
-  background-color: #2196f3;
-  opacity: 0.7;
+  border: 2px solid var(--icon-color, #666666);
   border-radius: 50%;
+  background-color: #ffffff;
+  box-sizing: border-box;
+}
+
+.image-comparison__slider::after {
+  content: "";
+  display: block;
+  width: 24px;
+  height: 18px;
+  background-image: url("../../icons/stack.svg#resize");
+  top: calc(50% - 9px);
+  left: -11px;
+  position: absolute;
+}
+
+.image-comparison__slider:hover,
+.image-comparison__slider:focus,
+.image-comparison__slider:hover::before,
+.image-comparison__slider:focus::before {
+  background-color: #cccccc;
 }

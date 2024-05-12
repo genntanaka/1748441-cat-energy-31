@@ -14,7 +14,19 @@
   border-bottom: 1px solid #e6e6e6;
 }
 
-.menu-list_link {
+@media (min-width: $width-tablet) {
+  .menu-list__item {
+    width: auto;
+    border: none;
+  }
+
+  .menu-list__item:last-child {
+    border: none;
+  }
+}
+
+
+.menu-list__link {
   font-family: $secondary-font;
   color: var(--text-secondary-color, #000000);
   text-decoration: none;
@@ -24,5 +36,11 @@
   display: block;
   padding-top: 22px;
   padding-bottom: 24px;
+}
+
+@media (min-width: $width-tablet) {
+  .menu-list__link {
+    padding: 7px;
+  }
 }
 

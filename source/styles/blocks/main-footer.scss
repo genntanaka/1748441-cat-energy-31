@@ -2,6 +2,13 @@
   background-color: var(--secondary-background, #f2f2f2);
 }
 
+@media (min-width: $width-tablet) {
+  .main-footer {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
 .main-footer__social {
   padding-top: 20px;
   padding-bottom: 20px;

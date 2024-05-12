@@ -11,10 +11,35 @@
   gap: 20px;
 }
 
+@media (min-width: $width-tablet) {
+  .usage__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    counter-reset: example 0;
+  }
+
+  .usage__item {
+    counter-increment: myIndex;
+    min-height: 280px;
+    flex-direction: column;
+  }
+
+  .usage__item::after {
+    content: counter(myIndex);
+    font-size: 280px;
+    line-height: 1;
+    color: #f2f2f2;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+  }
+}
+
 .usage__item {
   display: flex;
-  align-items: center;
   gap: 20px;
+  position: relative;
 }
 
 .usage__item::before {

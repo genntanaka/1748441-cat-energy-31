@@ -1,14 +1,15 @@
 .hero {
   background-image: linear-gradient(var(--basic-background, rgba(104, 183, 56, 0.85)) 62%, #ffffff 62%), url("../../images/m-hero-bg@1x.jpg");
   background-repeat: no-repeat;
-  background-size: 100% auto;
+  background-size: contain;
   background-position: top;
-  background-color: #68b738;
+  background-color: #30551c;
 
   position: relative;
   text-align: center;
   padding: 27px 35px;
   padding-bottom: 0;
+  color: var(--text-light-color, #ffffff);
 }
 
 @media (min-resolution: 2dppx) {
@@ -17,11 +18,18 @@
   }
 }
 
+@media (min-width: $width-tablet) {
+  .hero {
+    background: none;
+    color: var(--text-secondary-color, #000000);
+    text-align: left;
+  }
+}
+
 .hero__title {
   font-family: $secondary-font;
   font-size: 36px;
   line-height: 1;
-  color: var(--text-light-color, #ffffff);
   margin: 0;
   position: relative;
   z-index: 1;
@@ -32,7 +40,6 @@
   font-family: $secondary-font;
   font-size: 14px;
   line-height: 1;
-  color: var(--text-light-color, #ffffff);
   text-transform: uppercase;
   margin: 0;
   margin-bottom: 29px;

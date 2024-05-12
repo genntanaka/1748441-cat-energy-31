@@ -3,6 +3,12 @@
   background-color: transparent;
 }
 
+@media (min-width: $width-tablet) {
+  .toggle {
+    display: none;
+  }
+}
+
 .toggle::before {
   content: "";
   display: block;

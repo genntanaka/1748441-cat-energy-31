@@ -1,13 +1,13 @@
-.main-nav {
-  //
-}
-
-.main-nav__toggle {
-  //
-}
-
 .main-nav__list {
   display: none;
+}
+
+@media (min-width: $width-tablet) {
+  .main-nav__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
 }
 
 .main-nav--open .main-nav__list {

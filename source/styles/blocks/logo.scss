@@ -4,8 +4,10 @@
   gap: 10px;
 }
 
-.logo--header {
-  //
+@media (min-width: $width-tablet) {
+  .logo--header {
+    gap: 13px;
+  }
 }
 
 .logo--footer {

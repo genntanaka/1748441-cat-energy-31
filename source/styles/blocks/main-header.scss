@@ -4,6 +4,10 @@
   align-items: center;
   padding-top: 13px;
   padding-bottom: 13px;
+
+  @media (min-width: $width-tablet) {
+    padding-top: 25px;
+  }
 }
 
 .main-header__logo-image:hover {

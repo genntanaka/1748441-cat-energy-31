@@ -9,21 +9,27 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
-}
 
-@media (min-width: $width-tablet) {
-  .usage__list {
+  @media (min-width: $width-tablet) {
     display: grid;
     grid-template-columns: 1fr 1fr;
     counter-reset: example 0;
   }
+}
 
-  .usage__item {
+.usage__item {
+  display: flex;
+  gap: 20px;
+  position: relative;
+
+  @media (min-width: $width-tablet) {
     counter-increment: myIndex;
     min-height: 280px;
     flex-direction: column;
   }
+}
 
+@media (min-width: $width-tablet) {
   .usage__item::after {
     content: counter(myIndex);
     font-size: 280px;
@@ -34,12 +40,6 @@
     right: 0;
     z-index: -1;
   }
-}
-
-.usage__item {
-  display: flex;
-  gap: 20px;
-  position: relative;
 }
 
 .usage__item::before {
@@ -53,6 +53,10 @@
   background-size: 30px 32px;
   background-repeat: no-repeat;
   background-position: center;
+
+  @media (min-width: $width-tablet) {
+    width: 60px;
+  }
 }
 
 .usage__item--health {
@@ -73,4 +77,8 @@
 
 .usage__text {
   margin: 0;
+
+  @media (min-width: $width-tablet) {
+    margin-right: 85px;
+  }
 }

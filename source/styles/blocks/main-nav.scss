@@ -1,12 +1,10 @@
 .main-nav__list {
   display: none;
-}
 
-@media (min-width: $width-tablet) {
-  .main-nav__list {
+  @media (min-width: $width-tablet) {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 18px;
   }
 }
 

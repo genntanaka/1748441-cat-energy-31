@@ -8,10 +8,8 @@
   padding: 0;
   display: flex;
   flex-direction: column;
-}
 
-@media (min-width: $width-tablet) {
-  .catalog-list {
+  @media (min-width: $width-tablet) {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 60px;

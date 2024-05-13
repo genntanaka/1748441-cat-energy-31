@@ -4,7 +4,6 @@
   background-size: contain;
   background-position: top;
   background-color: #30551c;
-
   position: relative;
   text-align: center;
   padding: 27px 35px;
@@ -58,7 +57,6 @@
   }
 }
 
-
 .hero__image {
   position: relative;
   z-index: 1;
@@ -66,6 +64,7 @@
   @media (min-width: $width-tablet) {
     margin-top: -82px;
   }
+
 }
 
 .hero__button {

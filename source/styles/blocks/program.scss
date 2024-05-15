@@ -4,6 +4,11 @@
   @media (min-width: $width-tablet) {
     padding-top: 0;
   }
+
+  @media (min-width: $width-desctop) {
+    padding-top: 41px;
+    padding-bottom: 26px;
+  }
 }
 
 .program__list {

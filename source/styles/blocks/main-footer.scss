@@ -7,6 +7,13 @@
     align-items: center;
     min-height: 147px;
   }
+
+  @media (min-width: $width-tablet) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 169px;
+  }
 }
 
 .main-footer__social {

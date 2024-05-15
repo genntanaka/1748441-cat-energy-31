@@ -21,6 +21,17 @@
     display: grid;
     padding-top: 47px;
   }
+
+  @media (min-width: $width-tablet) {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.hero picture{
+  @media (min-width: $width-desctop) {
+    grid-column: 2 / -1;
+    grid-row: 1 / -1;
+  }
 }
 
 .hero__title {
@@ -37,6 +48,9 @@
     max-width: 480px;
     margin-left: 85px;
     margin-bottom: 40px;
+  }
+  @media (min-width: $width-tablet) {
+    margin-top: 110px;
   }
 }
 
@@ -64,6 +78,10 @@
 
   @media (min-width: $width-tablet) {
     margin-top: -82px;
+  }
+
+  @media (min-width: $width-desctop) {
+    margin-top: 0;
   }
 }
 

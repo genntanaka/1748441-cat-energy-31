@@ -1,7 +1,21 @@
+.upsell{
+  @media (min-width: $width-tablet) {
+    padding-top: 37px;
+    padding-bottom: 40px;
+  }
+}
+
 .upsell__list {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+.upsell__wrapper{
+  @media (min-width: $width-tablet) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 .upsell__item {
@@ -9,10 +23,20 @@
   display: block;
   padding-top: 13px;
   padding-bottom: 19px;
+  @media (min-width: $width-tablet) {
+    padding-top: 26px;
+    padding-bottom: 28px;
+  }
 }
 
 .upsell__item:last-child {
   border-bottom: 1px solid #cdcdcd;
+}
+
+.upsell__main-title{
+  @media (min-width: $width-tablet) {
+    margin-bottom: 80px;
+  }
 }
 
 .upsell__title {
@@ -30,6 +54,9 @@
   color: var(--text-basic-color, #444444);
   display: flex;
   justify-content: space-between;
+  @media (min-width: $width-tablet) {
+
+  }
 }
 
 .upsell__weight {

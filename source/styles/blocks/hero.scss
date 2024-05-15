@@ -60,6 +60,7 @@
 .hero__image {
   position: relative;
   z-index: 1;
+  vertical-align: middle;
 
   @media (min-width: $width-tablet) {
     margin-top: -82px;

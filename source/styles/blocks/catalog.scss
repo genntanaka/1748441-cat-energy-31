@@ -1,3 +1,11 @@
+.catalog{
+  @media (min-width: $width-tablet) {
+    padding-top:  45px;
+    padding-bottom: 37px;
+  }
+}
+
+
 .catalog-title {
   line-height: 1;
 }

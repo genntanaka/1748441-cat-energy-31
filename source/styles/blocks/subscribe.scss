@@ -1,9 +1,14 @@
 .subscribe {
-  //
+  @media (min-width: $width-tablet) {
+    padding-top: 40px;
+    padding-bottom: 80px;
+  }
 }
 
 .subscribe__title {
-  //
+  @media (min-width: $width-tablet) {
+    margin-bottom: 66px;
+  }
 }
 
 .subscribe__form {

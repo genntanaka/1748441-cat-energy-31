@@ -29,6 +29,9 @@
   background-color: #eaeaea;
   padding-left: 10px;
   padding-right: 10px;
+  @media (min-width: $width-tablet) {
+    font-size: 14px;
+  }
 }
 
 .result__list dd {
@@ -41,12 +44,17 @@
   border: 1px solid #cdcdcd;
   border-radius: 3px;
   width: 124px;
+  @media (min-width: $width-tablet) {
+    font-size: 30px;
+    line-height: 1.23;
+    padding: 15px 0;
+  }
 }
 
 .result__item {
   position: relative;
-  // display: flex;
-  // justify-content: space-between;
+  // display: flex;displaydisplaydisplaydisplaydisplaydisplaydisplay
+  // justify-content: space-between;justify-contentjustify-contentjustify-contentjustify-contentjustify-contentjustify-contentjustify-content
 }
 
 .result__price {
@@ -56,9 +64,24 @@
   text-transform: uppercase;
   text-align: center;
   margin: 29px 0 0;
+  @media (min-width: $width-tablet) {
+    font-size: 20px;
+    line-height: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    align-items: flex-end;
+  }
 }
 
 .result__images {
   width: fit-content;
   margin-top: 20px;
+}
+
+.result_indicators{
+  @media (min-width: $width-tablet) {
+    display: flex;
+    justify-content: space-between;
+  }
 }

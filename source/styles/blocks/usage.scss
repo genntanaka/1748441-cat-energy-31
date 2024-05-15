@@ -1,5 +1,9 @@
 .usage {
+  padding-top: 20px;
   padding-bottom: 49px;
+  @media (min-width: $width-tablet) {
+    padding-top: 45px;
+  }
 }
 
 .usage__list {
@@ -14,6 +18,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     counter-reset: example 0;
+    gap: 74px;
   }
 }
 
@@ -32,12 +37,13 @@
 @media (min-width: $width-tablet) {
   .usage__item::after {
     content: counter(myIndex);
+    font-family: $secondary-font;
     font-size: 280px;
     line-height: 1;
     color: #f2f2f2;
     position: absolute;
     top: 0;
-    right: 0;
+    right: 27%;
     z-index: -1;
   }
 }
@@ -55,7 +61,8 @@
   background-position: center;
 
   @media (min-width: $width-tablet) {
-    width: 60px;
+    width: 80px;
+    height: 80px;
   }
 }
 

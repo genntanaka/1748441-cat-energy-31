@@ -10,6 +10,18 @@
   @media (min-resolution: 2dppx) {
     background-image: url("../../images/gift-bg@2x.png");
   }
+
+  @media (min-width: $width-tablet) {
+    background-image: url("../../images/t-gift-bg@1x.png");
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../../images/t-gift-bg@2x.png");
+    }
+  }
 }
 
 .gifts::after {
@@ -35,6 +47,11 @@
   margin: 0 auto 48px;
   position: relative;
   z-index: 1;
+  @media (min-width: $width-tablet) {
+    margin: 0;
+    width: 80px;
+    height: 80px;
+  }
 }
 
 .gifts__text {
@@ -45,4 +62,7 @@
   margin: 0;
   position: relative;
   z-index: 1;
+  @media (min-width: $width-tablet) {
+    max-width: 215px;
+  }
 }

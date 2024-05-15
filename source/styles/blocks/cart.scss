@@ -2,11 +2,26 @@
   display: grid;
   grid-template-columns: 50% 1fr;
   padding: 20px 0 25px;
+  @media (min-width: $width-tablet) {
+    grid-template-columns: 1fr;
+    padding: 10px 37px 40px;
+    background-color: var(--secondary-background, #f2f2f2);
+  }
 }
 
 .cart__link-image {
   grid-row: 1 / 3;
   justify-self: center;
+  @media (min-width: $width-tablet) {
+    height: 210px;
+    display: flex;
+    align-items: end;
+    margin-bottom: 22px;
+  }
+}
+
+.cart__image {
+  object-fit: contain;
 }
 
 .cart__link-title {
@@ -16,11 +31,20 @@
   color: var(--text-title-color, #222222);
   text-decoration: none;
   text-transform: uppercase;
+  @media (min-width: $width-tablet) {
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    max-width: 135px;
+    justify-self: center;
+  }
 }
 
 .cart__title {
-  margin: 0;
-  margin-bottom: 14px;
+  margin: 0 0 14px;
+  @media (min-width: $width-tablet) {
+    margin: 0 0 20px;
+  }
 }
 
 .cart__characteristics {
@@ -28,11 +52,19 @@
   line-height: 1.33;
   color: var(--text-basic-color, #444444);
   margin: 0;
+  @media (min-width: $width-tablet) {
+    font-size: 16px;
+    line-height: 1.25;
+  }
 }
 
 .cart__value {
   display: flex;
   justify-content: space-between;
+  @media (min-width: $width-tablet) {
+    margin-bottom: 5px;
+    border-bottom: 1px solid #cdcdcd;
+  }
 }
 
 .cart__value dd {

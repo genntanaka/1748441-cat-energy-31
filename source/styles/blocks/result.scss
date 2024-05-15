@@ -12,6 +12,7 @@
 
 .result__title {
   margin: 0 0 40px;
+
   @media (min-width: $width-desctop) {
     grid-column: 1 / 2;
     margin: 0 0 70px;
@@ -20,6 +21,7 @@
 
 .result__text {
   margin: 0 0 20px;
+
   @media (min-width: $width-desctop) {
     max-width: 433px;
     margin: 0;
@@ -31,11 +33,13 @@
   justify-content: space-between;
   gap: 32px;
   text-align: center;
+
   @media (min-width: $width-desctop) {
     margin: 0;
   }
+
   @media (min-width: $width-desctop) {
-   gap: 42px;
+    gap: 42px;
   }
 }
 
@@ -49,9 +53,11 @@
   background-color: #eaeaea;
   padding-left: 10px;
   padding-right: 10px;
+
   @media (min-width: $width-tablet) {
     font-size: 14px;
   }
+
   @media (min-width: $width-desctop) {
     bottom: 60px;
   }
@@ -67,11 +73,13 @@
   border: 1px solid #cdcdcd;
   border-radius: 3px;
   width: 124px;
+
   @media (min-width: $width-tablet) {
     font-size: 30px;
     line-height: 1.23;
     padding: 15px 0;
   }
+
   @media (min-width: $width-desctop) {
     padding: 15px 18px;
   }
@@ -88,6 +96,7 @@
   text-transform: uppercase;
   text-align: center;
   margin: 29px 0 0;
+
   @media (min-width: $width-tablet) {
     font-size: 20px;
     line-height: 1;
@@ -101,13 +110,14 @@
 .result__images {
   width: fit-content;
   margin-top: 20px;
+
   @media (min-width: $width-desctop) {
     grid-column: 2 / 3;
     grid-row: 1 / 4;
   }
 }
 
-.result_indicators{
+.result_indicators {
   @media (min-width: $width-tablet) {
     display: flex;
     justify-content: space-between;

@@ -1,4 +1,4 @@
-.upsell{
+.upsell {
   @media (min-width: $width-tablet) {
     padding-top: 37px;
     padding-bottom: 40px;
@@ -17,12 +17,13 @@
   padding: 0;
 }
 
-.upsell__wrapper{
+.upsell__wrapper {
   @media (min-width: $width-tablet) {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
   }
+
   @media (min-width: $width-desctop) {
     width: 100%;
     padding-right: 40px;
@@ -34,10 +35,12 @@
   display: block;
   padding-top: 13px;
   padding-bottom: 19px;
+
   @media (min-width: $width-tablet) {
     padding-top: 26px;
     padding-bottom: 28px;
   }
+
   @media (min-width: $width-desctop) {
     display: flex;
     justify-content: space-between;
@@ -50,7 +53,7 @@
   border-bottom: 1px solid #cdcdcd;
 }
 
-.upsell__main-title{
+.upsell__main-title {
   @media (min-width: $width-tablet) {
     margin-bottom: 80px;
   }
@@ -76,9 +79,6 @@
   color: var(--text-basic-color, #444444);
   display: flex;
   justify-content: space-between;
-  @media (min-width: $width-tablet) {
-
-  }
 }
 
 .upsell__weight {
@@ -91,6 +91,7 @@
 
 .upsell_button {
   width: 100%;
+
   @media (min-width: $width-desctop) {
     max-width: 244px;
   }

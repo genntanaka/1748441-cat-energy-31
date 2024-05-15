@@ -1,16 +1,19 @@
-.program{
+.program {
   padding-top: 20px;
+
   @media (min-width: $width-tablet) {
     padding-top: 0;
   }
 }
+
 .program__list {
   list-style: none;
   margin: 0;
-  padding: 0 0;
+  padding: 0;
   display: flex;
   flex-direction: column;
   gap: 20px;
+
   @media (min-width: $width-desctop) {
     display: grid;
     grid-template-columns: 1fr 1fr;

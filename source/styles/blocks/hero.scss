@@ -27,7 +27,7 @@
 
   @media (min-width: $width-desctop) {
     background-image: linear-gradient(to right, #ffffff 50%, var(--basic-background, rgba(104, 183, 56, 0.85)) 50%), url("../../images/hero-bg@1x.jpg"), linear-gradient(#32521e 50%, #3f5a2c 50%);
-    background-position: right;
+    background-position: right bottom;
     background-repeat: no-repeat;
 
     margin-top: -103px;

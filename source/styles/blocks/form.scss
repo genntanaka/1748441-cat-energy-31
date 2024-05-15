@@ -21,6 +21,8 @@
   @media (min-width: $width-tablet) {
     flex-direction: row;
     gap: 0;
+    max-width: 752px;
+    margin: auto;
   }
 }
 

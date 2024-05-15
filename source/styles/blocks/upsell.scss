@@ -3,6 +3,12 @@
     padding-top: 37px;
     padding-bottom: 40px;
   }
+
+  @media (min-width: $width-desctop) {
+    display: grid;
+    grid-template-columns: 1fr 245px;
+    column-gap: 80px;
+  }
 }
 
 .upsell__list {
@@ -15,6 +21,11 @@
   @media (min-width: $width-tablet) {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+  @media (min-width: $width-desctop) {
+    width: 100%;
+    padding-right: 40px;
   }
 }
 
@@ -27,6 +38,12 @@
     padding-top: 26px;
     padding-bottom: 28px;
   }
+  @media (min-width: $width-desctop) {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-bottom: 17px;
+  }
 }
 
 .upsell__item:last-child {
@@ -36,6 +53,11 @@
 .upsell__main-title{
   @media (min-width: $width-tablet) {
     margin-bottom: 80px;
+  }
+
+  @media (min-width: $width-desctop) {
+    display: grid;
+    grid-column: 1 / -1;
   }
 }
 
@@ -69,4 +91,7 @@
 
 .upsell_button {
   width: 100%;
+  @media (min-width: $width-desctop) {
+    max-width: 244px;
+  }
 }

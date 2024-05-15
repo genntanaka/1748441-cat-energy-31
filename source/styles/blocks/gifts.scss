@@ -1,6 +1,6 @@
 .gifts {
   //background-color: var(--basic-background, rgba(104, 183, 56, 0.85));
-  background-image: url("../../images/gift-bg@1x.png");
+  background-image: url("../../images/m-gift-bg@1x.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -20,6 +20,14 @@
 
     @media (min-resolution: 2dppx) {
       background-image: url("../../images/t-gift-bg@2x.png");
+    }
+  }
+
+  @media (min-width: $width-tablet) {
+    background-image: url("../../images/gift-bg@1x.png");
+    margin-top: 0;
+    @media (min-resolution: 2dppx) {
+      background-image: url("../../images/gift-bg@2x.png");
     }
   }
 }

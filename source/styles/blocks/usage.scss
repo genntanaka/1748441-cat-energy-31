@@ -20,6 +20,10 @@
     counter-reset: example 0;
     gap: 74px;
   }
+
+  @media (min-width: $width-desctop) {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 
 .usage__item {

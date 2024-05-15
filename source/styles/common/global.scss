@@ -40,4 +40,8 @@
   @media (min-width: $width-tablet) {
     padding: 0 30px;
   }
+
+  @media (min-width: $width-desctop) {
+    padding: 0 110px;
+  }
 }

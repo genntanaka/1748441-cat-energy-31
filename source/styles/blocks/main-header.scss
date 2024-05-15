@@ -4,6 +4,7 @@
   align-items: center;
   padding-top: 13px;
   padding-bottom: 13px;
+  z-index: 1;
 
   @media (min-width: $width-tablet) {
     padding-top: 25px;

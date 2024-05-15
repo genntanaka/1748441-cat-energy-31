@@ -1,5 +1,5 @@
 .hero {
-  background-image: linear-gradient(var(--basic-background, rgba(104, 183, 56, 0.85)) 62%, #ffffff 62%),  url("../../images/m-hero-bg@1x.jpg"), linear-gradient(to right, #32521e 50%, #2e3e23 50%);
+  background-image: linear-gradient(var(--basic-background, rgba(104, 183, 56, 0.85)) 62%, #ffffff 62%), url("../../images/m-hero-bg@1x.jpg"), linear-gradient(to right, #32521e 50%, #2e3e23 50%);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: top;
@@ -39,7 +39,7 @@
   }
 }
 
-.hero picture{
+.hero picture {
   @media (min-width: $width-desctop) {
     grid-column: 2 / -1;
     grid-row: 1 / -1;
@@ -61,6 +61,7 @@
     margin-left: 85px;
     margin-bottom: 40px;
   }
+
   @media (min-width: $width-desctop) {
     margin-top: 110px;
   }
@@ -110,4 +111,3 @@
     padding: 14px 26px;
   }
 }
-

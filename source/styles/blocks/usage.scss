@@ -40,24 +40,23 @@
   }
 }
 
-
-  .usage__item::after {
-    @media (min-width: $width-tablet) {
-      content: counter(myIndex);
-      font-family: $secondary-font;
-      font-size: 280px;
-      line-height: 1;
-      color: #f2f2f2;
-      position: absolute;
-      top: 0;
-      right: 27%;
-      z-index: -1;
-    }
-    @media (min-width: $width-tablet) {
-      right: 0;
-    }
+.usage__item::after {
+  @media (min-width: $width-tablet) {
+    content: counter(myIndex);
+    font-family: $secondary-font;
+    font-size: 280px;
+    line-height: 1;
+    color: #f2f2f2;
+    position: absolute;
+    top: 0;
+    right: 27%;
+    z-index: -1;
   }
 
+  @media (min-width: $width-tablet) {
+    right: 0;
+  }
+}
 
 .usage__item::before {
   content: "";

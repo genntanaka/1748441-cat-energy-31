@@ -1,3 +1,9 @@
+.main-nav{
+  @media (min-width: $width-desctop) {
+    max-width: 50%;
+  }
+}
+
 .main-nav__list {
   display: none;
 

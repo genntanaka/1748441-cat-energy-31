@@ -25,7 +25,7 @@
   margin: 0 0 20px;
 
   @media (min-width: $width-desctop) {
-    max-width: 433px;
+    max-width: 436px;
     margin: 0;
   }
 }
@@ -75,6 +75,7 @@
   border: 1px solid #cdcdcd;
   border-radius: 3px;
   width: 124px;
+  box-sizing: border-box;
 
   @media (min-width: $width-tablet) {
     font-size: 30px;
@@ -89,6 +90,7 @@
 
 .result__item {
   position: relative;
+  max-width: 124px;
 }
 
 .result__price {

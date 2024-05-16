@@ -1,5 +1,6 @@
 .program {
   padding-top: 20px;
+  padding-bottom: 5px;
 
   @media (min-width: $width-tablet) {
     padding-top: 0;
@@ -32,7 +33,8 @@
   padding: 21px 20px 18px;
   position: relative;
   display: grid;
-  grid-template-columns: 60px auto;
+  grid-template-columns: 70px auto;
+  grid-template-rows: 70px auto;
 
   @media (min-width: $width-tablet) {
     padding: 77px 53px;
@@ -153,7 +155,8 @@
   line-height: 1.54;
   text-transform: uppercase;
   color: var(--text-secondary-color, #000000);
-  margin: 0 0 29px;
+  margin: 0;
+  margin-top: 12px;
 
   @media (min-width: $width-tablet) {
     grid-column: 1 / 2;
@@ -173,8 +176,9 @@
 .program__text {
   margin: 0;
   padding-bottom: 23px;
+  padding-top: 8px;
   border-bottom: 1px solid #d9d9d9;
-  margin-bottom: 15px;
+  margin-bottom: 18px;
   grid-column: 1 / -1;
 
   @media (min-width: $width-tablet) {
@@ -215,7 +219,6 @@
     line-height: 1.48;
     gap: 28px;
   }
-
 }
 
 .program__link::after {

@@ -10,6 +10,7 @@
   @media (min-width: $width-tablet) {
     padding-top: 25px;
   }
+
   @media (min-width: $width-desctop) {
     padding-top: 53px;
   }
@@ -39,8 +40,10 @@
   opacity: $standart_opacity_focus;
 }
 
-.main-header__logo-text{
+.main-header__logo-text {
   height: auto;
+  margin: auto;
+
   @media (min-width: $width-desctop) {
     width: 118px;
   }

@@ -1,4 +1,6 @@
 .upsell {
+  padding-top: 25px;
+
   @media (min-width: $width-tablet) {
     padding-top: 37px;
     padding-bottom: 40px;
@@ -15,6 +17,7 @@
   list-style: none;
   margin: 0;
   padding: 0;
+  padding-bottom: 40px;
 }
 
 .upsell__wrapper {
@@ -54,6 +57,8 @@
 }
 
 .upsell__main-title {
+  margin-bottom: 35px;
+
   @media (min-width: $width-tablet) {
     margin-bottom: 80px;
   }
@@ -79,6 +84,7 @@
   color: var(--text-basic-color, #444444);
   display: flex;
   justify-content: space-between;
+  margin: 13px 1px;
 }
 
 .upsell__weight {

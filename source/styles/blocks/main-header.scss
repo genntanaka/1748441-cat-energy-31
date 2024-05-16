@@ -44,6 +44,10 @@
   height: auto;
   margin: auto;
 
+  @media (min-width: $width-tablet) {
+    margin: 0;
+  }
+
   @media (min-width: $width-desctop) {
     width: 118px;
   }

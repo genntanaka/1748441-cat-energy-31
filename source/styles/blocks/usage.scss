@@ -1,5 +1,5 @@
 .usage {
-  padding-top: 20px;
+  padding-top: 45px;
   padding-bottom: 49px;
 
   @media (min-width: $width-tablet) {
@@ -20,7 +20,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     counter-reset: example 0;
-    gap: 74px;
+    gap: 37px 59px;
+    margin-top: 70px;
   }
 
   @media (min-width: $width-desctop) {
@@ -38,6 +39,7 @@
     counter-increment: myIndex;
     min-height: 280px;
     flex-direction: column;
+    align-items: flex-start;
   }
 }
 
@@ -55,7 +57,8 @@
   }
 
   @media (min-width: $width-tablet) {
-    right: 0;
+    top: -38px;
+    right: 98px;
   }
 }
 
@@ -97,6 +100,7 @@
   margin: 0;
 
   @media (min-width: $width-tablet) {
-    margin-right: 85px;
+    max-width: 240px;
+    margin-top: 11px;
   }
 }

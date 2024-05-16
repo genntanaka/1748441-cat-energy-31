@@ -20,6 +20,10 @@
   flex-direction: column;
   gap: 20px;
 
+  @media (min-width: $width-tablet) {
+    gap: 30px;
+  }
+
   @media (min-width: $width-desctop) {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -37,9 +41,10 @@
   grid-template-rows: 70px auto;
 
   @media (min-width: $width-tablet) {
-    padding: 77px 53px;
+    padding: 65px 53px;
     grid-template-columns: 1fr 200px;
     column-gap: 20px;
+    align-items: center;
   }
 
   @media (min-width: $width-desctop) {
@@ -67,9 +72,9 @@
     align-self: center;
     width: 200px;
     height: 200px;
+    top: 26px;
+    left: -10px;
     right: 0;
-    top: 15px;
-    left: 7px;
   }
 
   @media (min-width: $width-desctop) {
@@ -111,8 +116,9 @@
   @media (min-width: $width-tablet) {
     width: 140px;
     height: 194px;
-    left: 37px;
-    bottom: 10px;
+    bottom: 19px;
+    left: 20px;
+    top: -6px;
   }
 
   @media (min-width: $width-desctop) {
@@ -136,8 +142,8 @@
   @media (min-width: $width-tablet) {
     width: 268px;
     height: 112px;
-    left: -23px;
-    top: -5px;
+    top: 4px;
+    left: -40px;
   }
 
   @media (min-width: $width-desctop) {
@@ -162,10 +168,10 @@
     grid-column: 1 / 2;
     font-size: 36px;
     line-height: 1;
-    margin: 0 0 24px;
+    margin: 0;
   }
 
-  @media (min-width: $width-tablet) {
+  @media (min-width: $width-desctop) {
     grid-column: 2 / 3;
     min-height: 100px;
     margin: 0;
@@ -212,6 +218,7 @@
   @media (min-width: $width-tablet) {
     grid-column: 1 / 2;
     font-size: 20px;
+    gap: 25px;
   }
 
   @media (min-width: $width-desctop) {

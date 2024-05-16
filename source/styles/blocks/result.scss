@@ -3,6 +3,10 @@
   padding-top: 25px;
   padding-bottom: 40px;
 
+  @media (min-width: $width-tablet) {
+    padding-top: 15px;
+  }
+
   @media (min-width: $width-desctop) {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -23,6 +27,10 @@
 
 .result__text {
   margin: 0 0 20px;
+
+  @media (min-width: $width-tablet) {
+    padding-top: 19px;
+  }
 
   @media (min-width: $width-desctop) {
     max-width: 436px;
@@ -99,7 +107,7 @@
   line-height: 1.42;
   text-transform: uppercase;
   text-align: center;
-  margin: 32px 0 0;
+  margin: 36px 0 0;
 
   @media (min-width: $width-tablet) {
     font-size: 20px;

@@ -38,7 +38,7 @@
   position: absolute;
   background-image: linear-gradient(var(--basic-background, rgba(104, 183, 56, 0.85)) 63%, #ffffff 63%), url("../../images/m-hero-bg@1x.jpg"), linear-gradient(to right, #32521e 50%, #2e3e23 50%);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: auto;
   background-position: top;
   z-index: -1;
 

@@ -6,6 +6,11 @@
     padding-top: 40px;
     padding-bottom: 80px;
   }
+
+  @media (min-width: $width-desctop) {
+    padding-top: 45px;
+    padding-bottom: 103px;
+  }
 }
 
 .subscribe__title {
@@ -13,5 +18,9 @@
 
   @media (min-width: $width-tablet) {
     margin-bottom: 66px;
+  }
+
+  @media (min-width: $width-tablet) {
+    margin-bottom: 72px;
   }
 }

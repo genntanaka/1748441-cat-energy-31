@@ -17,8 +17,13 @@
 
   @media (min-width: $width-tablet) {
     display: flex;
-    align-items: end;
+    align-items: center;
     margin-bottom: 22px;
+    height: 210px;
+  }
+
+  @media (min-width: $width-desctop) {
+    margin-bottom: 11px;
   }
 }
 
@@ -49,7 +54,12 @@
   max-width: 95px;
 
   @media (min-width: $width-tablet) {
-    margin: 0 0 20px;
+    margin: 0 0 17px;
+    max-width: 130px;
+  }
+
+  @media (min-width: $width-desctop) {
+    margin: 0 0 25px;
   }
 }
 
@@ -70,8 +80,14 @@
   justify-content: space-between;
 
   @media (min-width: $width-tablet) {
-    margin-bottom: 5px;
-    border-bottom: 1px solid #cdcdcd;
+    padding-bottom: 4px;
+    margin-bottom: 8px;
+    box-shadow: 0 1px #cdcdcd;
+  }
+
+  @media (min-width: $width-tablet) {
+    margin-bottom: 6px;
+    padding-bottom: 6px;
   }
 }
 
@@ -83,4 +99,12 @@
   width: 100%;
   grid-column: 1 / -1;
   margin-top: 18px;
+
+  @media (min-width: $width-tablet) {
+    margin-top: 26px;
+  }
+
+  @media (min-width: $width-tablet) {
+    margin-top: 30px;
+  }
 }

@@ -6,6 +6,11 @@
     padding-top: 45px;
     padding-bottom: 35px;
   }
+
+  @media (min-width: $width-desctop) {
+    padding-top: 50px;
+    padding-bottom: 0;
+  }
 }
 
 .usage__list {
@@ -26,6 +31,7 @@
 
   @media (min-width: $width-desctop) {
     grid-template-columns: repeat(4, 1fr);
+    gap: 80px;
   }
 }
 
@@ -56,9 +62,9 @@
     z-index: -1;
   }
 
-  @media (min-width: $width-tablet) {
+  @media (min-width: $width-desctop) {
     top: -38px;
-    right: 98px;
+    right: 0;
   }
 }
 

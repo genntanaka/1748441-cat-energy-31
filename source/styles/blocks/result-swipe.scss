@@ -1,6 +1,10 @@
 .result-swipe {
   margin: auto;
   padding-top: 107px;
+
+  @media (min-width: $width-desctop) {
+    padding-top: 0;
+  }
 }
 
 .result-swipe__image-comparison {
@@ -9,21 +13,22 @@
   position: relative;
 }
 
-.result-swipe__image-comparison picture{
+.result-swipe__image-comparison picture {
   display: contents;
 }
 
 
-.result-swipe__image-comparison-image-before, .result-swipe__image-comparison-image-after{
+.result-swipe__image-comparison-image-before,
+.result-swipe__image-comparison-image-after {
   grid-column: 1/-1;
   grid-row: 1/-1;
 }
 
-.result-swipe__image-comparison-image-before{
-clip-path: inset(0 50% 0 0);
+.result-swipe__image-comparison-image-before {
+  clip-path: inset(0 50% 0 0);
 }
 
-.result-swipe__image-comparison-image-after{
+.result-swipe__image-comparison-image-after {
   clip-path: inset(0 0 0 50%);
 }
 

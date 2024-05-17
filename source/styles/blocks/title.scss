@@ -23,27 +23,31 @@
   @media (min-width: $width-tablet) {
     font-size: 32px;
     line-height: 1;
-    margin-left: 40px;
+  }
+
+  @media (min-width: $width-tablet) {
+    font-size: 40px;
   }
 }
 
-.title--decor::before{
+.title--decor::before {
   content: "";
   display: block;
   position: absolute;
   height: 2px;
   width: 100vw;
-  background-color: var(--basic-background-color, #68b738);
-  box-shadow: 100vw 0 0 0 var(--basic-background-color, #68b738);
   top: 14px;
+  right: 0;
   z-index: -1;
+  background: var(--basic-background-color, #68b738);
+  box-shadow: 100vw 0 0 0 var(--basic-background-color, #68b738);
 
   @media (min-width: $width-tablet) {
     top: 19px;
   }
 
   @media (min-width: $width-desctop) {
-    top: 19px;
+    top: 16px;
   }
 }
 

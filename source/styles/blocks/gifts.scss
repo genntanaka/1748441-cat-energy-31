@@ -23,9 +23,11 @@
     }
   }
 
-  @media (min-width: $width-tablet) {
+  @media (min-width: $width-desctop) {
     background-image: url("../../images/gift-bg@1x.png");
     margin-top: 0;
+    flex-direction: column;
+    padding: 55px 45px;
 
     @media (min-resolution: 2dppx) {
       background-image: url("../../images/gift-bg@2x.png");

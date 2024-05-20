@@ -8,6 +8,7 @@
   align-items: center;
   padding-top: 26px;
   padding-bottom: 26px;
+  z-index: 1;
 
   @media (min-width: $width-tablet) {
     padding: 60px 70px;
@@ -66,3 +67,14 @@
   width: 100%;
   object-fit: cover;
 }
+
+.contacts__map{
+  position: relative;
+}
+
+.contacts__map iframe{
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+

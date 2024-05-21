@@ -16,13 +16,12 @@
   }
 }
 
-.result__wrapper{
+.result__wrapper {
   @media (min-width: $width-desctop) {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 92px;
   }
-
 }
 
 .result__title {

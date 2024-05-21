@@ -16,16 +16,16 @@
   color: var(--text-light-color, #ffffff);
 }
 
-.button--primary:active{
+.button--primary:active {
   background-color: #5eaa2f;
-  color: rgba(255,255,255, 0.3);
+  color: rgba(255, 255, 255, 0.3);
 }
 
-.button--primary:hover{
+.button--primary:hover {
   background-color: #5eaa2f;
 }
 
-.button--primary:focus{
+.button--primary:focus {
   background-color: #5eaa2f;
 }
 
@@ -34,14 +34,14 @@
   color: var(--text-basic-color, #444444);
 }
 
-.button--secondary:active{
+.button--secondary:active {
   background-color: #ebebeb;
 }
 
-.button--secondary:hover{
+.button--secondary:hover {
   background-color: #ebebeb;
 }
 
-.button--secondary:focus{
+.button--secondary:focus {
   background-color: #ebebeb;
 }

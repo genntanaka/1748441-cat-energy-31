@@ -47,7 +47,7 @@
   }
 }
 
-.menu-list__link--current{
+.menu-list__link--current {
   text-decoration: underline;
   text-decoration-color: #ffffff;
   text-decoration-thickness: 2px;
@@ -55,18 +55,18 @@
 }
 
 .main-header--inner .menu-list__link--current {
-  text-decoration-color:  var(--button-basic, #68b738);
+  text-decoration-color: var(--button-basic, #68b738);
 }
 
-.menu-list__link:active{
+.menu-list__link:active {
   opacity: 0.3;
 }
 
-.menu-list__link:hover{
+.menu-list__link:hover {
   opacity: $standart_opacity_active;
 }
 
-.menu-list__link:focus{
+.menu-list__link:focus {
   opacity: $standart_opacity_active;
 }
 

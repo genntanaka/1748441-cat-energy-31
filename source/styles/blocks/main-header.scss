@@ -2,18 +2,19 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 11px;
-  padding-bottom: 12px;
+  padding: 11px 20px 12px;
   z-index: 1;
 
 
   @media (min-width: $width-tablet) {
+    padding: 11px 30px 12px;
     padding-top: 25px;
   }
 
   @media (min-width: $width-desctop) {
     padding-top: 53px;
-    width: calc(100% - 220px);
+    width: 1220px;
+    margin: 0 auto;
   }
 }
 

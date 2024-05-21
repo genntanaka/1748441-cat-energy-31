@@ -49,6 +49,11 @@
   }
 }
 
+.form__input--error {
+  box-shadow: 0 0 0 2px #ff8282;
+  z-index: 1;
+}
+
 .form__button {
   width: 100%;
   padding: 13px 26px;

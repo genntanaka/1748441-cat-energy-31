@@ -14,7 +14,7 @@
     grid-template-columns: 1fr 1fr;
     column-gap: 92px;
     padding-top: 30px;
-    padding-bottom: 75px;
+    padding-bottom: 72px;
   }
 }
 
@@ -39,7 +39,7 @@
   @media (min-width: $width-desctop) {
     max-width: 433px;
     margin: 0;
-    padding-top: 72px;
+    padding-top: 75px;
   }
 }
 
@@ -123,7 +123,7 @@
   line-height: 1.42;
   text-transform: uppercase;
   text-align: center;
-  margin: 36px 0 0;
+  margin: 32px 0 0;
 
   @media (min-width: $width-tablet) {
     font-size: 20px;

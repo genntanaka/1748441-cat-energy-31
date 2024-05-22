@@ -77,6 +77,7 @@
 .hero__title {
   font-family: $secondary-font;
   font-size: 36px;
+  font-weight: 400;
   line-height: 1;
   position: relative;
   padding-top: 27px;
@@ -95,6 +96,7 @@
   @media (min-width: $width-desctop) {
     margin-left: 0;
     margin-top: 32px;
+    margin-bottom: 5px;
   }
 }
 
@@ -116,6 +118,7 @@
   @media (min-width: $width-desctop) {
     grid-column: 1;
     margin-left: 0;
+    margin-bottom: 18px;
   }
 }
 
@@ -141,7 +144,7 @@
 .hero__button {
   position: relative;
   z-index: 1;
-  margin: 0 20px;
+
 
   @media (min-width: $width-tablet) {
     width: fit-content;
@@ -153,5 +156,7 @@
   @media (min-width: $width-desctop) {
     grid-column: 1;
     margin-left: 0;
+    grid-row: 3 / 4;
+    height: fit-content;
   }
 }

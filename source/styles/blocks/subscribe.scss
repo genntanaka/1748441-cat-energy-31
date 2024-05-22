@@ -18,9 +18,11 @@
 
   @media (min-width: $width-tablet) {
     margin-bottom: 66px;
+    margin-left: 40px;
   }
 
-  @media (min-width: $width-tablet) {
+  @media (min-width: $width-desctop) {
     margin-bottom: 72px;
+    margin-left: 0;
   }
 }

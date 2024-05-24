@@ -37,6 +37,7 @@
   background-image: linear-gradient(var(--basic-background, rgba(104, 183, 56, 0.85)) 63%, #ffffff 63%), url("../../images/m-hero-bg@1x.jpg"), linear-gradient(to right, #32521e 50%, #2e3e23 50%);
   background-position: top;
   background-repeat: no-repeat;
+  background-color: var(--button-basic, #68b738);
   width: 100%;
   height: 100%;
   z-index: -1;
@@ -57,6 +58,7 @@
   @media (min-width: $width-desctop) {
     background-image: linear-gradient(var(--basic-background, rgba(104, 183, 56, 0.85)) 100%, #68b738), url("../../images/hero-bg@1x.jpg"), linear-gradient(#2b421c 50%, #2b421c 50%);
     background-repeat: no-repeat;
+    background-color: var(--button-basic, #68b738);
     top: 0;
     right: 0;
     left: auto;

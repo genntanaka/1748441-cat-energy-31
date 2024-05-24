@@ -27,6 +27,10 @@
     max-width: 175px;
     margin: auto auto 23px;
   }
+
+  @media (min-width: $width-desctop) {
+    margin: 0;
+  }
 }
 
 .pagination__title::before {
@@ -48,6 +52,9 @@
     height: 60px;
     margin: 0 auto 50px;
   }
+  @media (min-width: $width-desctop) {
+    margin: 0 auto 40px;
+  }
 }
 
 .pagination__text {
@@ -63,6 +70,11 @@
     max-width: 175px;
     margin: auto;
     margin-bottom: 21%;
+  }
+
+  @media (min-width: $width-tablet) {
+    margin-top: 26px;
+    margin-bottom: auto;
   }
 }
 

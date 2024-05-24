@@ -1,8 +1,8 @@
 .upsell {
-  padding-top: 25px;
+  padding-top: 27px;
 
   @media (min-width: $width-tablet) {
-    padding-top: 34px;
+    padding-top: 37px;
     padding-bottom: 40px;
   }
 
@@ -17,8 +17,7 @@
 .upsell__list {
   list-style: none;
   margin: 0;
-  padding: 0;
-  padding-bottom: 40px;
+  padding: 0 0 35px;
 
   @media (min-width: $width-tablet) {
     padding: 0;
@@ -79,7 +78,7 @@
 }
 
 .upsell__main-title {
-  margin-bottom: 35px;
+  margin-bottom: 39px;
 
   @media (min-width: $width-tablet) {
     margin-bottom: 80px;

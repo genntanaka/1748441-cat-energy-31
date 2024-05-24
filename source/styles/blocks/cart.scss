@@ -5,6 +5,7 @@
 
   @media (min-width: $width-tablet) {
     grid-template-columns: 1fr;
+    grid-template-rows: 75px auto 1fr;
     padding: 10px 37px 40px;
     background-image: linear-gradient(#fff 75px, var(--secondary-background, #f2f2f2) 75px);
 
@@ -21,9 +22,10 @@
   justify-self: center;
   height: 107px;
 
+  display: flex;
+  align-items: center;
+
   @media (min-width: $width-tablet) {
-    display: flex;
-    align-items: center;
     margin-bottom: 19px;
     height: 210px;
   }
@@ -31,6 +33,10 @@
   @media (min-width: $width-desctop) {
     margin-bottom: 11px;
   }
+}
+
+.cart__link-image picture{
+  display: contents;
 }
 
 .cart__image {
@@ -83,6 +89,7 @@
 .cart__value {
   display: flex;
   justify-content: space-between;
+  gap: 5px;
 
   @media (min-width: $width-tablet) {
     padding-bottom: 4px;

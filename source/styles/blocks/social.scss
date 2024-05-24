@@ -1,5 +1,7 @@
-.social {
-  //
+.social{
+  @media (min-width: $width-tablet) {
+    padding-left: 33px;
+  }
 }
 
 .social__list {
@@ -10,11 +12,12 @@
   justify-content: center;
   flex-wrap: wrap;
   gap: 28px;
+
+  @media (min-width: $width-tablet) {
+    gap: 24px;
+  }
 }
 
-.social__item {
-  //
-}
 
 .social__link {
   --bgc: var(--icon-color, #666666);

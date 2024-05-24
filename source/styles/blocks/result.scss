@@ -4,13 +4,12 @@
   padding-bottom: 40px;
 
   @media (min-width: $width-tablet) {
-    padding-top: 15px;
+    padding-top: 17px;
     padding-bottom: 101px;
     background-image: linear-gradient(to top, var(--secondary-background, #f2f2f2) 465px, #ffffff 465px);
   }
 
   @media (min-width: $width-desctop) {
-
     padding-top: 30px;
     padding-bottom: 72px;
   }
@@ -72,7 +71,7 @@
   position: absolute;
   left: 50%;
   transform: translate(-50%);
-  bottom: -13px;
+  top: 53px;
   padding-left: 10px;
   padding-right: 10px;
   background-color: #eaeaea;
@@ -80,7 +79,7 @@
   @media (min-width: $width-tablet) {
     font-size: 14px;
     min-width: 127px;
-    bottom: -8px;
+    top: 65px;
     background-color: #ffffff;
   }
 

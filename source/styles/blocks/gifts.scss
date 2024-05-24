@@ -81,4 +81,8 @@
     text-align: left;
     max-width: 209px;
   }
+
+  @media (min-width: $width-desctop) {
+    text-align: center;
+  }
 }

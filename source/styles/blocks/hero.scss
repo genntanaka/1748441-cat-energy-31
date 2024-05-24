@@ -54,7 +54,6 @@
     position: static;
   }
 
-
   @media (min-width: $width-desctop) {
     background-image: linear-gradient(var(--basic-background, rgba(104, 183, 56, 0.85)) 100%, #68b738), url("../../images/hero-bg@1x.jpg"), linear-gradient(#2b421c 50%, #2b421c 50%);
     background-repeat: no-repeat;
@@ -146,7 +145,6 @@
 .hero__button {
   position: relative;
   z-index: 1;
-
 
   @media (min-width: $width-tablet) {
     width: fit-content;

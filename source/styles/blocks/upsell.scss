@@ -91,6 +91,18 @@
   }
 }
 
+.upsell__main-title {
+  margin-bottom: 35px;
+
+  @media (min-width: $width-tablet) {
+    margin-bottom: 80px;
+  }
+
+  @media (min-width: $width-desctop) {
+    grid-column: 1 / -1;
+  }
+}
+
 .upsell__title {
   font-family: $secondary-font;
   font-size: 16px;

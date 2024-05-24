@@ -60,6 +60,18 @@
   }
 }
 
+.cart__link-title:active {
+  opacity: $standart_opacity_active;
+}
+
+.cart__link-title:hover {
+  opacity: $standart_opacity_hover;
+}
+
+.cart__link-title:focus {
+  opacity: $standart_opacity_focus;
+}
+
 .cart__title {
   margin: 3px 0 14px;
   max-width: 95px;

@@ -70,3 +70,12 @@
     content: none;
   }
 }
+
+.catalog__item--outline{
+  display: grid;
+  grid-template-rows: 75px 1fr;
+  @media (min-width: $width-desctop) {
+
+    grid-template-rows: 78px 1fr;
+  }
+}

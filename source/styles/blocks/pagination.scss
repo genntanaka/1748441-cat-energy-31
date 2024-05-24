@@ -3,11 +3,11 @@
   padding-bottom: 25px;
 
   @media (min-width: $width-tablet) {
-    margin-top: 85px;
     border: 2px solid #f2f2f2;
     padding: 50px 37px 40px;
     display: flex;
     flex-direction: column;
+    grid-row: 2 / -1;
   }
 }
 

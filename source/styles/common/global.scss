@@ -53,18 +53,18 @@
 }
 
 // стили при отключеном javascript
-.no-js .main-header{
+.no-js .main-header {
   flex-direction: column;
 }
 
-.no-js .main-nav{
+.no-js .main-nav {
   width: 100%;
 }
 
-.no-js .toggle{
+.no-js .toggle {
   display: none;
 }
 
-.no-js .main-nav__list{
+.no-js .main-nav__list {
   display: block;
 }

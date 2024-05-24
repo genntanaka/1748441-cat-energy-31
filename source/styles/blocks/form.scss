@@ -1,5 +1,5 @@
 
-.form{
+.form {
   @media (min-width: $width-tablet) {
     max-width: 632px;
     margin: auto;
@@ -9,6 +9,7 @@
     max-width: 769px;
   }
 }
+
 .form__text {
   font-family: $secondary-font;
   font-size: 16px;
@@ -75,8 +76,8 @@
   @media (min-width: $width-tablet) {
     width: 256px;
   }
+
   @media (min-width: $width-desctop) {
     width: 261px;
   }
-
 }

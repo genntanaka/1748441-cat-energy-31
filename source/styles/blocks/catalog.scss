@@ -71,7 +71,7 @@
   }
 }
 
-.catalog__item--outline{
+.catalog__item--outline {
   @media (min-width: $width-tablet) {
     display: grid;
     grid-template-rows: 75px 1fr;

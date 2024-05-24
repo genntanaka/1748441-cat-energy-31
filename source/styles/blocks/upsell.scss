@@ -131,6 +131,7 @@
 
 .upsell__weight {
   margin: 0;
+
   @media (min-width: $width-tablet) {
     text-align: right;
   }
@@ -138,6 +139,7 @@
 
 .upsell__price {
   margin: 0;
+
   @media (min-width: $width-tablet) {
     min-width: 93px;
     text-align: right;
@@ -147,7 +149,6 @@
     min-width: 75px;
     text-align: left;
   }
-
 }
 
 .upsell_button {

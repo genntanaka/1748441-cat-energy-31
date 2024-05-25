@@ -77,14 +77,13 @@
 
   @media (min-width: $width-tablet) {
     font-size: 14px;
-    min-width: 127px;
-    margin-top: -5px;
+    max-width: initial;
+    min-width: initial;
+    margin-top: -9px;
     background-color: #ffffff;
   }
 
   @media (min-width: $width-desctop) {
-    max-width: initial;
-    min-width: initial;
     margin-top: -7px;
     background-color: #f2f2f2;
   }
@@ -105,7 +104,7 @@
   @media (min-width: $width-tablet) {
     font-size: 30px;
     line-height: 1.23;
-    padding: 15px 0;
+    padding: 17px 0;
     width: 162px;
   }
 

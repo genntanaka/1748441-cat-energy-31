@@ -237,9 +237,16 @@
 .program__link::after {
   content: "";
   display: block;
-  width: 24px;
+  width: 32px;
   height: 12px;
   background-image: url("../../icons/stack.svg#arrow");
+  background-position: -8px;
+  background-repeat: no-repeat;
+}
+
+.program__link:hover::after,
+.program__link:focus::after {
+  background-position: 0;
 }
 
 .program__link:active {

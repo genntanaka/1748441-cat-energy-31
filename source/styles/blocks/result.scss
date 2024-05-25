@@ -115,7 +115,7 @@
 .result__item {
   max-width: 124px;
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   align-items: center;
 
   @media (min-width: $width-tablet) {

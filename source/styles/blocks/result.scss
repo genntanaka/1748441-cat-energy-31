@@ -53,6 +53,7 @@
   justify-content: space-between;
   gap: 32px;
   text-align: center;
+  align-items: flex-start;
 
   @media (min-width: $width-tablet) {
     margin: 0;
@@ -82,7 +83,8 @@
   }
 
   @media (min-width: $width-desctop) {
-    min-width: max-content;
+    max-width: initial;
+    min-width: initial;
     margin-top: -7px;
     background-color: #f2f2f2;
   }

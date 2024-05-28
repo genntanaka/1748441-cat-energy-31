@@ -158,6 +158,10 @@
     margin-top: 10px;
   }
 
+  @media (min-width: $width-tablet) {
+    margin-top: 10px;
+  }
+
   @media (min-width: $width-desctop) {
     max-width: 192px;
     width: 100%;

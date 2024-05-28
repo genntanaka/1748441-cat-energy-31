@@ -76,6 +76,11 @@
     margin-top: 26px;
     margin-bottom: auto;
   }
+
+  @media (min-width: $width-tablet) {
+    margin-top: 26px;
+    margin-bottom: auto;
+  }
 }
 
 .pagination__button {
